@@ -1,0 +1,103 @@
+﻿@import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
+
+html, body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+a, .btn-link {
+    color: #0366d6;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.content {
+    padding-top: 1.1rem;
+}
+
+.valid.modified:not([type=checkbox]) {
+    outline: 1px solid #26b050;
+}
+
+.invalid {
+    outline: 1px solid red;
+}
+
+.validation-message {
+    color: red;
+}
+
+/*********** CUSTOM CSS *************/
+
+h1 {
+    text-align: center;
+    font-weight: normal;
+    border-bottom: 1px solid #000000;
+    margin-top: 30px;
+}
+
+.top-menu {
+    margin-bottom: 50px;
+}
+
+.winner {
+    background-color: #79C5F7;
+}
+
+.loser {
+    background-color: #F5B3A4;
+}
+
+.card-body {
+    border-top: 1px solid #000000;
+}
+
+.card-text {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.card {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 30%;
+    border: 2px solid #000000
+}
+
+
+
+.borderino {
+    border-radius: 15px;
+    border: 2px solid #000000;
+    padding: 10px
+}
+
+    .borderino p {
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+
+/************* END *************/
+
+#blazor-error-ui {
+    background: lightyellow;
+    bottom: 0;
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2);
+    display: none;
+    left: 0;
+    padding: 0.6rem 1.25rem 0.7rem 1.25rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+    #blazor-error-ui .dismiss {
+        cursor: pointer;
+        position: absolute;
+        right: 0.75rem;
+        top: 0.5rem;
+    }
